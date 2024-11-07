@@ -198,4 +198,9 @@ window.onload = function() {
     const header = document.querySelector('.containers');
     const content = document.querySelector('.any');
     content.style.marginTop = `${header.offsetHeight+100}px`
+
+
+    form.style.display='block',
+stopScroll.style.overflow='hidden'
+formBg.style.zIndex=10;
 };
